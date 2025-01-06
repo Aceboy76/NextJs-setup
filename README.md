@@ -18,9 +18,7 @@
 - [Install Packages](#Install-packages)
 - [Edit Files](#Edit-Files)
 - [Optional](#Optional)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
-- [Acknowledgments](#acknowledgments)
+
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
