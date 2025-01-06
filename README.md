@@ -28,7 +28,7 @@
 <p>(i use bun for installment, you can use npm if you like).</p>
 <p>check the installment for nextjs with npm.</p>
 
-```bash
+```
 cd .\Desktop\
 
 mkdir NextJs_Project
