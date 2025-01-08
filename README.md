@@ -28,7 +28,7 @@
 <p>(i use bun for installment, you can use npm if you like).</p>
 <p>check the installment for nextjs with npm.</p>
 
-```
+```bash
 cd .\Desktop\
 
 mkdir NextJs_Project
@@ -63,7 +63,7 @@ env
 ## Install Packages
 <p>Install this necessary packeges</p>
 
-```
+```bash
 bun install tailwind-merge
 bun install bcrypt-ts
 bun install zod
@@ -75,7 +75,7 @@ npx shadcn-ui@latest init
 
 <p>Change the  layout.tsx file to this</p>
 
-```
+```tsx
 import "./globals.css";
 
 export default function RootLayout({
@@ -98,7 +98,7 @@ export default function RootLayout({
 ```
 <p>Add this to the lib.ts</p>
 
-```
+```tsx
 import { promises } from "dns";
 import { SignJWT, jwtVerify } from "jose";
 
@@ -128,7 +128,7 @@ export async function decrypt(session: string): Promise<any> {
 
 <p>Add this to the session.ts</p>
 
-```
+```tsx
 import { cookies } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -174,13 +174,13 @@ export async function deleteSession() {
 
 <p>first install nodemailer</p>
 
-```
+```bash
 bun install nodemailer
 ```
 
 <p>add this to you env file</p>
 
-```
+```env
 JWT_SECRET_KEY="generatedSecretkey"
 EMAIL_HOST="smtp.gmail.com"
 EMAIL_PORT="465"
@@ -191,7 +191,7 @@ EMAIL_PASS="yourpassword"
 
 <p>Then create a file for sending email verification</p>
 
-```
+```tsx
 'use server'
 
 import nodemailer from 'nodemailer';
